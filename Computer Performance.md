@@ -13,17 +13,18 @@ $$Performance= \frac{1}{{Execution \ time}}$$
 ***
 **Quick compare**
 
-| X | | Y |
+| X | | Y 
 :--:|:--:|:--:
 | Performance | > | Performance 
-| 1 | | 1|
-| ------------ | > | ------------ |
-| Execution time X | > | Execution time Y |
+| 1 | | 1
+| ------------ | > | ------------ 
+| Execution time X | > | Execution time Y
+
 * * *
 #### Relative Performance
 "X is n time faster than Y"
 
-$$\frac{{Performance(X)}}{{Performance(Y)}} = \frac{{Execution \ time(X)}}{{Execution \ time(Y)}} = n$$
+$$\frac{{Performance(X)}}{{Performance(Y)}} = \frac{{Execution \ time(Y)}}{{Execution \ time(X)}} = n$$
 * * *
 #### Clock
 
@@ -73,15 +74,16 @@ Performance components:
 - CPI
 
   | Hardware/Software | What impact's|
-  :--:|:--:|
+  :--:|:--:
   | Algorithm | Total Instruction, CPI|
   | Programming Language | Total Instruction, CPI
   | Compiler | Total Instruction, CPI
   | Instruction Architecture | Total Instruction, Frequency, CPI
+  
 ***
 #### Reduce execution time
 - Increase clock rate (limited by hardware)
-- Pipeline: execution **multiple instruction** by divide cycle execution into many stage. In single time, 1 instruciont just can execute 1 stage.
+- Pipeline: execution **multiple instruction** by divide cycle execution into many stage. In single time, 1 instruction just can execute 1 stage.
 - Prediction: Predict jump (Jump instruction) has or not
 - Multicor: Execution many *program* by increase processor
 - Multithread: Execution *multitask* by increase processor unit
